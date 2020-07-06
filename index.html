@@ -2,24 +2,156 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ayush Kumar</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
     <header id="body-header">
-
+        <nav>
+            <ul class="horizontal-list text-center">
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Ayush Kumar</h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ayush-kumar-68811395/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/ayushk12">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/8544702/ayush-kumar">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <section id="about">
+            <div id="my-image">
+                <img src="asset/ayush.jpg">
+            </div>
+            <div id="about-para">
+                <p>My name is Ayush
+                    Kumar. I am an interactive web and e-learning designer and developer
+                    is all about creating and elegant looking websites.Always keeping it clean and simple with
+                    that added functionality of user interaction.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+
+                <img src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo.png">
+                <img src="https://img.icons8.com/color/144/000000/html-5.png">
+                <img src="https://img.icons8.com/color/144/000000/css3.png">
+                <img src="https://img.icons8.com/color/144/000000/javascript.png">
+                <i class="fab fa-node-js" style="font-size: 140px; color: green;"></i>
+                <img src="https://img.icons8.com/color/144/000000/mongodb.png">
+                <img src="https://img.icons8.com/material/144/000000/data-configuration--v1.png">
+                <img src="https://img.icons8.com/color/144/000000/git.png">
+                <img src="https://img.icons8.com/color/144/000000/react-native.png">
+                <img src="https://img.icons8.com/color/144/000000/bootstrap.png">
+                <img src="https://img.icons8.com/ios-filled/150/000000/jquery.png">
+                <img src="https://img.icons8.com/color/144/000000/redux.png">
+
+
+            </div>
+            </div>
+
+            </div>
+
         </section>
         <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
 
-        </section>
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40
+                            placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
+                    <p> Emails us with any question or enquiries.We would be happy to answer your question </p>
+                    </p>
+
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bangalore, India</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>7001878098</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>kayush242@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center social-icons">
+
+                <ul class="horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/ayush-kumar-68811395/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://stackoverflow.com/users/8544702/ayush-kumar" target="_blank">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://aboutme.google.com/u/0/?referer=gplus" target="_blank">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/ayushk12">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
     </main>
-
 </body>
 
 </html>
